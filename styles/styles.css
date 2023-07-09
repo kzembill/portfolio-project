@@ -1,4 +1,11 @@
 body {
-    background: #E7DFD8;
-   
+    background-color: #E7DFD8;
+    padding-top: 50px;
+}
+.intro {
+    
+    border-style: double;
+    border-width: medium;
+    border-radius: 5px;
+    padding: 16px 48px;
 }
