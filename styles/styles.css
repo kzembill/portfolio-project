@@ -2,10 +2,14 @@ body {
     background-color: #E7DFD8;
     padding-top: 50px;
 }
-.intro {
+.container {
     
     border-style: double;
     border-width: medium;
     border-radius: 5px;
     padding: 16px 48px;
+}
+.container p {
+    text-align: left;
+    color: black;
 }
