@@ -7,9 +7,18 @@ body {
     border-style: double;
     border-width: medium;
     border-radius: 5px;
-    padding: 16px 48px;
+    padding: 20px 48px;
 }
 .container p {
     text-align: left;
     color: black;
+}
+h2 {
+    font-size: 15px;
+}
+p {
+ text-align: center;
+}
+img {
+   image-orientation: from-image;
 }
