@@ -20,7 +20,7 @@ content p, h1, h2 {
 p {
  text-align: center;
 }
-img {
+.col-6 img {
    padding-right: 15px;
 }
 @media (min-width=600) {
