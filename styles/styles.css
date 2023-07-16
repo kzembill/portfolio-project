@@ -9,12 +9,13 @@ body {
     padding: 35px 48px;
     padding: 30px 30px
 }
-content p {
-    text-align: left;
+content p, h1, h2 {
     color: black;
+    text-align: center;
 }
-h2 {
+.col-6 h2 {
     font-size: 15px;
+    text-align: center;
 }
 p {
  text-align: center;
@@ -27,4 +28,10 @@ img {
     display: none;
 }
 
+}
+.container bio-paragraph {
+    text-align: center;
+}
+a .button {
+    text-align: center;
 }
