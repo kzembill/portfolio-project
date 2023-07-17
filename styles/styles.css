@@ -6,11 +6,12 @@ body {
     border-style: double;
     border-width: medium;
     border-radius: 5px;
-    padding: 35px 48px;
+    padding: 35px 35px;
     padding: 30px 30px;
     display: flex;
+   
 }
-content p, h1, h2 {
+.content p, h1, h2 {
     color: black;
     text-align: center;
 }
@@ -32,10 +33,12 @@ p {
 .socials {
     display: none;
 }
+.container h1,h2,h3,p {
+    display: center;
 }
-.container bio-paragraph {
-    text-align: center;
+
 }
+
 .col-6 img {
     border-radius: 5px;
     display: flex;
@@ -44,5 +47,34 @@ p {
 }
 em {
     font-weight: lighter;
-    font-size: 20ox;
+    font-size: 20px;
+
+}
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: #E04D93;
+    background-color: #5B5754;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition:all 150ms ease-in-out;
+  
+}
+footer .social-links a:hover {
+    color: white;
+    background-color: aqua;
+}
+footer .contact-box {
+    background-color: #5B5754;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+.bio-paragraph {
+    text-align: center;
 }
