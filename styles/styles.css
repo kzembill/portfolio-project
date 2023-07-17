@@ -1,6 +1,7 @@
 body {
     background-color: #E7DFD8;
     padding-top: 50px;
+    text-align: center;
 }
 .container {
     border-style: double;
@@ -11,34 +12,25 @@ body {
     display: flex;
    
 }
-.content p, h1, h2 {
-    color: black;
-    text-align: center;
-}
+
 .container h2, h3, a {
     font-size: 18px;
     color: black;
     text-align: center;
     padding: 30px 30px;
 }
-.contact-page {
-    text-align: left;
-}
+
 .socials h2 {
     text-align: left;
     font-size: 15px;
 }
-p {
- text-align: center;
-}
+
 
 @media (min-width=600) {
 .socials {
     display: none;
 }
-.container h1,h2,h3,p {
-    display: center;
-}
+
 
 }
 
@@ -78,6 +70,8 @@ footer .contact-box {
     padding: 30px 120px;
     border-radius: 10px;
 }
-.bio-paragraph {
-    text-align: center;
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
