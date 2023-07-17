@@ -11,8 +11,13 @@ body {
     text-align: center; 
    
 }
-
-
+.container-bio {
+    border-style: double;
+    border-width: medium;
+    border-radius: 5px;
+    padding: 30px 30px;
+    position: relative;
+}
 .container h2, h3, a {
     font-size: 18px;
     color: black;
@@ -80,4 +85,10 @@ footer .contact-box {
     max-width: 100%;
     height: auto;
 }
-
+.text-center a:hover {
+    color: #E04D93;
+    transition:all 150ms ease-in-out;
+}
+.text-center a{
+    color:#5B5754;
+}
