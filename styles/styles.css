@@ -11,45 +11,39 @@ body {
     text-align: center; 
    
 }
-.container-bio {
-    border-style: double;
-    border-width: medium;
-    border-radius: 5px;
-    padding: 30px 30px;
-    position: relative;
-}
 .container h2, h3, a {
     font-size: 18px;
     color: black;
     padding: 15px 20px;
 }
-.container .row {
-display: flexbox;
-}
+
   
 
 @media (min-width=600) {
 .socials {
     display: none;
 }
-
-
+.multiple-images {
+    display: none;
+}
+footer .col-6 {
+    display: none;
+} 
+.social-links {
+    display:none;
+}
 }
 @media (max-width=900) {
     footer .contact-box {
         display: none;
     }
-    .social-links {
-        display:none;
-    }
+   
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
-.col-6 img {
-    border-radius: 5px;
-    display: flex;
-    width: 600px;
-    
-}
 em {
     font-weight: lighter;
     font-size: 20px;
