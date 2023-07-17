@@ -7,24 +7,21 @@ body {
     border-style: double;
     border-width: medium;
     border-radius: 5px;
-    padding: 35px 35px;
-    padding: 30px 30px;
-    display: flex;
+    padding: 30px 30px;   
+    text-align: center; 
    
 }
+
 
 .container h2, h3, a {
     font-size: 18px;
     color: black;
-    text-align: center;
-    padding: 30px 30px;
+    padding: 15px 20px;
 }
-
-.socials h2 {
-    text-align: left;
-    font-size: 15px;
+.container .row {
+display: flexbox;
 }
-
+  
 
 @media (min-width=600) {
 .socials {
@@ -32,6 +29,14 @@ body {
 }
 
 
+}
+@media (max-width=900) {
+    footer .contact-box {
+        display: none;
+    }
+    .social-links {
+        display:none;
+    }
 }
 
 .col-6 img {
@@ -75,3 +80,4 @@ footer .contact-box {
     max-width: 100%;
     height: auto;
 }
+
