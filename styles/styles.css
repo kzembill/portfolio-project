@@ -13,15 +13,19 @@ content p, h1, h2 {
     color: black;
     text-align: center;
 }
-.col-6 h2 {
+.container h2 {
+    font-size: 18px;
+}
+.socials h2 {
+    text-align: left;
     font-size: 15px;
-    text-align: center;
 }
 p {
  text-align: center;
 }
-.col-6 img {
-   padding-right: 15px;
+.bio-content a :hover{
+    color: black;
+    text-align: center;
 }
 @media (min-width=600) {
 .socials {
@@ -34,4 +38,19 @@ p {
 }
 a .button {
     text-align: center;
+}
+.containter-content
+{
+    background-color:lightgray;
+    background-image: url("loveself.png");
+    width: 100%;
+    
+}
+.bio-content p,h1 {
+    padding-top: 20px;
+    margin-bottom: 3px;
+    display: block;
+}
+.project-link{
+    text-align: right;
 }
