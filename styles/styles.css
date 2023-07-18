@@ -17,19 +17,11 @@ body {
     color: black;
     padding: 15px 20px;
 }
-@media (min-width=700) {
-.socials {
-    display: none;
-}
 
-.social-links {
-    display:none;
-}
-}
 @media (max-width=600px) {
-    footer .contact-box {
-        display: none;
-    }
+  .homepage-section .container {
+    display: none;
+  }
    
 }
 .img-fluid {
@@ -91,9 +83,7 @@ footer .contact-box {
 .container-bio .col-6 {
     display: inline;
 }
-.container .d-flex {
-    margin-left: 40px;
-    margin-right: 30px;
-    max-width: 100%;
-    
+.homepage-section .container{
+   display: inline-flexbox;
 }
+
