@@ -30,21 +30,7 @@ body {
     footer .contact-box {
         display: none;
     }
-    .col-6 img {
-        display:none;
-    }
-    footer {
-        display:none;
-    }
-   footer .contact-box {
-        display: none;
-    }
-   .container img {
-     display: none;
-   }
-   .container{
-    text-align: center;
-   }
+   
 }
 .img-fluid {
     max-width: 100%;
@@ -80,6 +66,7 @@ footer .contact-box {
     background-color: #5B5754;
     padding: 30px 120px;
     border-radius: 10px;
+  
 }
 
 .img-fluid {
